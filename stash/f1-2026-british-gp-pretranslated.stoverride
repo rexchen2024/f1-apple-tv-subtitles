@@ -4,14 +4,9 @@ desc: Pretranslated Chinese subtitles for the Apple TV British Grand Prix replay
 http:
   mitm:
     - hls-amt.itunes.apple.com
-    - play-edge.itunes.apple.com
   script:
     - match: '^https?:\/\/hls-amt\.itunes\.apple\.com\/itunes-assets\/HLSSportsVodVideo\d+\/v4\/.+\/.+_subtitles_V\d+\.m3u8'
       name: f1-subtitle-manifest
-      type: response
-      require-body: true
-    - match: '^https?:\/\/(play|play-edge|hls)\.itunes\.apple\.com\/WebObjects\/(MZPlay|MZPlayLocal)\.woa\/hls\/(subscription\/)?playlist\.m3u8'
-      name: f1-subtitle-manifest-play-edge
       type: response
       require-body: true
     - match: '^https?:\/\/hls-amt\.itunes\.apple\.com\/itunes-assets\/HLSSportsVodVideo221\/v4\/9b\/13\/43\/9b13437f-2d18-066e-1a70-eddd80998621\/P1436852938_A1881739464_en_subtitles_V2-(58|59|[6-9]\d|1[0-7]\d)\.webvtt\?(.*)subtype=Translate'
@@ -25,7 +20,4 @@ script-providers:
     interval: 86400
   f1-2026-british-gp-zh:
     url: https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/payloads/2026-british-gp-zh.js
-    interval: 86400
-  f1-subtitle-manifest-play-edge:
-    url: https://github.com/DualSubs/Universal/releases/download/v1.7.5/Manifest.response.bundle.js
     interval: 86400
