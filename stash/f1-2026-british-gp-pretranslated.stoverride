@@ -9,7 +9,7 @@ http:
       name: f1-subtitle-manifest
       type: response
       require-body: true
-    - match: '^https?:\/\/hls-amt\.itunes\.apple\.com\/itunes-assets\/HLSSportsVodVideo221\/v4\/9b\/13\/43\/9b13437f-2d18-066e-1a70-eddd80998621\/P1436852938_A1881739464_en_subtitles_V2-(58|59|[6-9]\d|1[0-7]\d)\.webvtt(?:\?.*)?$'
+    - match: '^https?:\/\/hls-amt\.itunes\.apple\.com\/itunes-assets\/HLSSportsVodVideo221\/v4\/9b\/13\/43\/9b13437f-2d18-066e-1a70-eddd80998621\/P1436852938_A1881739464_en_subtitles_V2-(58|59|[6-9]\d|1[0-7]\d)\.webvtt(\?.*)?$'
       name: f1-2026-british-gp-zh
       type: response
       require-body: true
