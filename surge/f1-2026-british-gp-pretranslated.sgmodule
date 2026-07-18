@@ -1,0 +1,5 @@
+[Script]
+f1-2026-british-gp-zh = type=http-response,pattern=^https?:\/\/hls-amt\.itunes\.apple\.com\/itunes-assets\/HLSSportsVodVideo221\/v4\/9b\/13\/43\/9b13437f-2d18-066e-1a70-eddd80998621\/P1436852938_A1881739464_en_subtitles_V2-(58|59|[6-9]\d|1[0-7]\d)\.webvtt(?:\?.*)?$,requires-body=1,script-path=https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/payloads/2026-british-gp-zh.js
+
+[MITM]
+hostname = hls-amt.itunes.apple.com
