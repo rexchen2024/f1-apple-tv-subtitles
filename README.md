@@ -24,4 +24,4 @@
 
 `https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/stash/f1-2026-british-gp-pretranslated.stoverride`
 
-打开支持场次的比赛回放，在字幕中选择英文解说对应的字幕轨即可。无需额外安装 DualSubs。
+打开支持场次的比赛回放，在字幕中选择英文解说对应的字幕轨即可。
