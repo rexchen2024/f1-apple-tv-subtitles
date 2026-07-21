@@ -24,4 +24,10 @@
 
 `https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/stash/f1-2026-race-commentary-zh.stoverride`
 
+### Shadowrocket
+
+开启「模块」功能，通过 URL 下载并启用：
+
+`https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/shadowrocket/f1-2026-race-commentary-zh.module`
+
 打开支持场次的比赛回放，在字幕中选择英文解说对应的字幕轨即可。
