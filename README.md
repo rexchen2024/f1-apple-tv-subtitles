@@ -16,12 +16,12 @@
 
 开启「模块」功能，通过 URL 下载并启用：
 
-`https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/surge/f1-2026-british-gp-pretranslated.sgmodule`
+`https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/surge/f1-2026-race-commentary-zh.sgmodule`
 
 ### Stash
 
 开启「覆写」功能，通过 URL 下载并启用：
 
-`https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/stash/f1-2026-british-gp-pretranslated.stoverride`
+`https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/stash/f1-2026-race-commentary-zh.stoverride`
 
 打开支持场次的比赛回放，在字幕中选择英文解说对应的字幕轨即可。
