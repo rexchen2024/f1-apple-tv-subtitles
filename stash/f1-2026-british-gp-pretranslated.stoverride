@@ -1,0 +1,23 @@
+name: Apple TV F1 中文字幕（Public Beta）
+desc: 已翻译 2026 奥地利站、英国站全场比赛解说（不含赛前、赛后采访）
+
+http:
+  mitm:
+    - hls-amt.itunes.apple.com
+  script:
+    - match: '^https?:\/\/hls-amt\.itunes\.apple\.com\/itunes-assets\/HLSSportsVodVideo\d+\/v4\/.+\/.+_subtitles_V\d+\.m3u8'
+      name: f1-subtitle-manifest
+      type: response
+      require-body: true
+    - match: '^https?:\/\/hls-amt\.itunes\.apple\.com\/itunes-assets\/HLSSportsVodVideo\d+\/v4\/(?:[^\/]+\/)+(?:P1436852938_A1881739464|P1429344944_A1882150267)_en_subtitles_V2-\d+\.webvtt(?:\?.*)?$'
+      name: apple-tv-f1-chinese
+      type: response
+      require-body: true
+
+script-providers:
+  f1-subtitle-manifest:
+    url: https://github.com/DualSubs/Universal/releases/download/v1.7.5/Manifest.response.bundle.js
+    interval: 86400
+  apple-tv-f1-chinese:
+    url: https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/payloads/2026-f1-race-commentary-zh.js
+    interval: 86400
