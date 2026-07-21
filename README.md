@@ -10,24 +10,12 @@
 
 ## 使用方法
 
-先在 Surge 或 Stash 开启 **MITM**，并安装、信任根证书。
+> 使用前，请先在 Surge、Stash 或 Shadowrocket 中开启 **MITM**，并安装、信任根证书。
 
-### Surge
-
-开启「模块」功能，通过 URL 下载并启用：
-
-`https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/surge/f1-2026-race-commentary-zh.sgmodule`
-
-### Stash
-
-开启「覆写」功能，通过 URL 下载并启用：
-
-`https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/stash/f1-2026-race-commentary-zh.stoverride`
-
-### Shadowrocket
-
-开启「模块」功能，通过 URL 下载并启用：
-
-`https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/shadowrocket/f1-2026-race-commentary-zh.module`
+| 工具 | 添加位置 | 下载链接 |
+| --- | --- | --- |
+| Surge | 模块 | [下载模块](https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/surge/f1-2026-race-commentary-zh.sgmodule) |
+| Stash | 覆写 | [下载覆写](https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/stash/f1-2026-race-commentary-zh.stoverride) |
+| Shadowrocket | 模块 | [下载模块](https://raw.githubusercontent.com/rexchen2024/f1-apple-tv-subtitles/main/shadowrocket/f1-2026-race-commentary-zh.module) |
 
 打开支持场次的比赛回放，在字幕中选择英文解说对应的字幕轨即可。
